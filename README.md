@@ -21,7 +21,7 @@ git clone https://github.com/immeucci/quake-signal-system
 ```
 2. **Navigate to the directory:**
 ```bash
-cd quaske-signal-system
+cd quake-signal-system
 ```
 
 
