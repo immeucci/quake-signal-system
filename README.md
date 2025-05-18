@@ -15,35 +15,6 @@ A client-server Java application that simulates a seismic network. Each client r
 
 ---
 
-## Project Structure
-
-quake-signal-system/
-├── intellij-project/          # Complete IntelliJ IDEA project
-│   ├── .idea/
-│   ├── quake_signal_system.iml
-│   └── src/
-│       ├── client/
-│       │   ├── QuakeClient.java
-│       │   ├── ClientController.java
-│       │   └── ReportGUI.java
-│       └── server/
-│           ├── QuakeServer.java
-│           └── ClientHandler.java
-│
-├── source-only/               # Only pure Java source files
-│   ├── client/
-│   │   ├── QuakeClient.java
-│   │   ├── ClientController.java
-│   │   └── ReportGUI.java
-│   └── server/
-│       ├── QuakeServer.java
-│       └── ClientHandler.java
-│
-├── README.md
-└── LICENSE (optional)
-
----
-
 ## How to run
 
 ### Server
