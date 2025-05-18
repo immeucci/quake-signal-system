@@ -13,6 +13,18 @@ A client-server Java application that simulates a seismic network. Each client r
 6. Real-time response and confirmation from the server
 
 
+## Installation
+1. **Clone the Repository:**  
+   Start with cloning the github repo in your system:
+```bash
+git clone https://github.com/immeucci/quake-signal-system
+```
+2. **Navigate to the directory:**
+```bash
+cd quaske-signal-system
+```
+
+
 ## How to run
 
 ### Server
