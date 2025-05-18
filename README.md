@@ -2,7 +2,6 @@
 
 A client-server Java application that simulates a seismic network. Each client represents a sensor installed in a city, capable of reporting earthquake events (magnitude and time) to a central server.
 
----
 
 ## Features
 
@@ -13,7 +12,6 @@ A client-server Java application that simulates a seismic network. Each client r
 5. Each city has its own `.txt` file containing event logs
 6. Real-time response and confirmation from the server
 
----
 
 ## How to run
 
@@ -39,7 +37,6 @@ java QuakeClient
 
 - Alternatively, open the **intellij-project/** in **IntelliJ IDEA** and run the classes directly from the IDE.
 
----
 
 ## Example Output
 
@@ -49,14 +46,12 @@ Earthquake reported at 14:32:10 with magnitude 4.5
 '''
 - Each **client** (representing a different city) will log to its respective file. The **server** manages all client connections in separate **threads**.
 
----
 
 ## Requirements
 
 - **Java 8** (or higher)
 - No external libraries required
 
----
 
 ## License
 
