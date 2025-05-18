@@ -29,33 +29,33 @@ cd quaske-signal-system
 
 ### Server
 
-- **To start the server:**
-'''bash
+**To start the server:**
+```bash
 cd source-only/server
 javac *.java
 java QuakeServer
-'''
+```
 
 ### client
 
-- **To start each client:**
-'''bash
+**To start each client:**
+```bash
 cd source-only/client
 javac *.java
 java QuakeClient
-'''
+```
 
 ### using IntelliJ
 
-- Alternatively, open the **intellij-project/** in **IntelliJ IDEA** and run the classes directly from the IDE.
+Alternatively, open the **intellij-project/** in **IntelliJ IDEA** and run the classes directly from the IDE.
 
 
 ## Example Output
 
 - When a client from **Rome** sends a report of a 4.5 magnitude earthquake at 14:32:10, a file **rome.txt** will be created (or updated) containing:
-'''txt
+```txt
 Earthquake reported at 14:32:10 with magnitude 4.5
-'''
+```
 - Each **client** (representing a different city) will log to its respective file. The **server** manages all client connections in separate **threads**.
 
 
