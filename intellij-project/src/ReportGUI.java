@@ -31,6 +31,10 @@ public class ReportGUI extends JFrame {
         JLabel magnitudeLabel = new JLabel("Magnitude:");
         JLabel timeLabel = new JLabel("Report Time:");
         JLabel timeValue = new JLabel(LocalDateTime.now().format(timeFormatter));
+        Timer timer = new Timer(1000, e -> {
+            timeValue.setText(LocalDateTime.now().format(timeFormatter));
+        });
+        timer.start();
 
         JPanel dataPanel = new JPanel(new GridLayout(2, 2, 10, 10));
         dataPanel.setBorder(new EmptyBorder(20, 20, 20, 20));
@@ -87,6 +91,7 @@ public class ReportGUI extends JFrame {
 
         disconnectButton.addActionListener(e -> {
             controller.closeConnection();
+            timer.stop();
             dispose();
         });
 
